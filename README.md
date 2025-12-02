@@ -38,6 +38,8 @@ Optionnel :
 
 * Vous pouvez afficher tous les ports trouvés dans votre navigateur grâce au bouton **« Ouvrir les ports »**.
 
+![Capture d’écran de PScan V2](v2-app.png)
+
 ---
 
 ## ⚠️ Avertissement légal
