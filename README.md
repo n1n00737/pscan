@@ -30,15 +30,21 @@ Vous pourrez télécharger la dernière version dans la section **Releases** du 
 
 Exécutez simplement le fichier `.exe`, puis :
 
-1. Entrez l’adresse IP ou le nom de domaine dans la zone prévue à cet effet.
-2. Indiquez le port de début et le port de fin que vous souhaitez scanner.
-3. Cliquez sur le bouton **« Lancer le scan »** pour démarrer l’analyse.
+1. Indiquez l'adresse IP ou le domaine à scanner.
+2. Définissez la plage de ports (1 à 65535).
+3. Cliquez sur **Lancer le scan** puis surveillez la progression.
 
 Optionnel :
 
-* Vous pouvez afficher tous les ports trouvés dans votre navigateur grâce au bouton **« Ouvrir les ports »**.
+* Cliquez sur **« Ouvrir les ports »** pour tester les services détectés dans le navigateur.
 
 ![Capture d’écran de PScan V2](v2-app.png)
+
+---
+
+## 🤝 Dépannage
+- Si aucun port n'est trouvé, vérifiez que la cible est accessible et que les ports ne sont pas filtrés.
+- Pour réduire les faux positifs, évitez de lancer plusieurs scans simultanés sur la même cible.
 
 ---
 
@@ -60,10 +66,14 @@ N’hésitez pas à ouvrir une **issue** ou à proposer une **pull request**.
 
 ## 📄 Licence
 
-Ce projet est distribué sous licence **Mozilla Public License 2.0 (MPL-2.0)**.
+Ce projet est distribué sous licence **Mozilla Public License 2.0 (MPL-2.0)**. Consultez le fichier [LICENSE](LICENSE).
 
 Vous êtes libre d’utiliser, copier, distribuer et modifier le code source, **à condition que toute modification apportée aux fichiers existants sous MPL-2.0 soit également publiée sous la même licence**.
 
 Le binaire compilé (`.exe`) peut être distribué sous les termes que vous souhaitez, tant que les parties du code couvertes par la MPL-2.0 restent accessibles conformément à la licence.
 
 Pour plus d’informations, veuillez consulter le texte complet de la licence dans le fichier **LICENSE** du dépôt.
+
+--- 
+
+Basé sur la version de [LUOX](https://github.com/luoxthedev/port-scanner/tree/main)
