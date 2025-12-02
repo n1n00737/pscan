@@ -1,5 +1,8 @@
 # 🔍 PScan – 1.0.0
 
+**UNIQUEMENT DISPONIBLE EN FRANCAIS POUR LE MOMENT**
+**ONLY AVAILABLE IN FRENCH FOR NOW**
+
 Un **scanner de ports simple et rapide**, compilé en `.exe`, permettant de vérifier l’ouverture des ports sur une machine distante ou locale.
 Cet outil est conçu pour les administrateurs système, les pentesters légitimes, ainsi que les utilisateurs souhaitant auditer la sécurité de leur réseau.
 
